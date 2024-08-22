@@ -1,5 +1,14 @@
-animal = "perro feliz"
+animal = " PErro feliz  "
 print(animal.upper())
 print(animal.lower())
 print(animal.capitalize())
+print(animal.strip().capitalize())
 print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("PE"))
+print(animal.find("pE"))
+print(animal.replace("Err", "j"))
+print("PE" in animal)
+print("PE" not in animal)
