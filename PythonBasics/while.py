@@ -16,6 +16,6 @@ print("-----------------")
 comando = ""
 while True:
     comando = input("$ ")
-    if comando.lower("salir"):
+    if comando.lower() == "salir":
         break
     print(comando)
